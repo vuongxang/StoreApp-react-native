@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text,ScrollView, View,FlatList } from 'react-native';
+import { StyleSheet, Text, ScrollView, View, FlatList } from 'react-native';
 import CategoryListItem from './components/CategoryListItem';
 
-export default class App extends React.Component {
+export default class Categories extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
